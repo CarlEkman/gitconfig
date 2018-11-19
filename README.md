@@ -7,6 +7,7 @@ This is just a remote storage of my preferred `.gitconfig` aliases.
 	br = branch
 	ci = commit
 	st = status
+	rem = rebase origin/master
 	fix = commit --amend --no-edit
 	wip = commit -a -m "WIP"
 	piw = reset HEAD~1
