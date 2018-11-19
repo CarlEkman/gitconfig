@@ -4,9 +4,10 @@ This is just a remote storage of my preferred `.gitconfig` aliases.
 ```
 [alias]
 	a = add .
+	ci = commit
+	cm = commit -m
 	co = checkout
 	br = branch
-	ci = commit
 	st = status
 	rem = rebase origin/master
 	fix = commit --amend --no-edit
