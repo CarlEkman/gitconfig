@@ -3,6 +3,7 @@ This is just a remote storage of my preferred `.gitconfig` aliases.
 
 ```
 [alias]
+	a = add .
 	co = checkout
 	br = branch
 	ci = commit
