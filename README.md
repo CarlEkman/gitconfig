@@ -4,6 +4,7 @@ This is just a remote storage of my preferred `.gitconfig` aliases.
 ```
 [alias]
 	a = add .
+	m = checkout master
 	ci = commit
 	cm = commit -m
 	co = checkout
