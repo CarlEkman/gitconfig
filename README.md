@@ -7,14 +7,16 @@ This is just a remote storage of my preferred `.gitconfig` aliases.
 	m = checkout master
 	ci = commit
 	cm = commit -m
+	ca = !git add . && git commit -m
 	co = checkout
 	br = branch
 	st = status
-	rem = rebase origin/master
+	pu = push -u origin
+	rem = !git fetch && git rebase origin/master
 	fix = commit --amend --no-edit
 	wip = commit -a -m "WIP"
 	piw = reset HEAD~1
 	last = diff HEAD~1
-	nuke = reset --hard HEAD
+	nuke = !git add . && git reset --hard HEAD
 	fpush = push --force-with-lease
 ```
