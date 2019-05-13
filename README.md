@@ -13,6 +13,7 @@ This is just a remote storage of my preferred `.gitconfig` aliases.
 	st = status
 	pu = push -u origin
 	rem = !git fetch && git rebase origin/master
+	ucl = git commit -am "[ci skip] Update CHANGES.md"
 	fix = commit --amend --no-edit
 	wip = commit -a -m "WIP"
 	piw = reset HEAD~1
