@@ -18,6 +18,7 @@ This is just a remote storage of my preferred `.gitconfig` aliases.
 	wip = commit -a -m "WIP"
 	piw = reset HEAD~1
 	last = diff HEAD~1
+	plog = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
 	nuke = !git add . && git reset --hard HEAD
 	fpush = push --force-with-lease
 ```
